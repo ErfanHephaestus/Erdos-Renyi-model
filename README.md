@@ -10,3 +10,9 @@ otherwise leave them disconnected.
 The network obtained after this procedure is called a random graph or
 a random network. Two mathematicians, Pál Erdős and Alfréd Rényi, have
 played an important role in understanding the properties of these networks. In their honor a random network is called the Erdős-Rényi network
+
+For visualization enter this code in Mathematica:
+mat3 = Import["adjacencymatrix.txt" , "Table"]
+mat3 // MatrixForm
+GraphPlot[mat3]
+MatrixPlot[mat3]

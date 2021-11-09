@@ -68,4 +68,5 @@ void erdosRenyi(ushort** const adjmat)
 		}
 		adjacency << endl;
 	}
+	adjacency.close();
 }
